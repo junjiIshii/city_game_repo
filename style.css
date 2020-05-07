@@ -1,0 +1,315 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+.fas{
+  min-width:20px;
+}
+
+
+.game-area-conteiner {
+  margin:10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap:wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainwrapper {
+  display: inline-block;
+}
+
+.gameOver{
+  display:none;
+}
+
+.gameOver p{
+  color:white;
+  font-weight: bold;
+}
+
+.playwrapper{
+  display:none;
+}
+
+.start-menu{
+  text-align: center;
+}
+
+.stat-btn{
+  height: 40px;
+  width: 120px;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+.tutorial-btn{
+  height: 40px;
+  width: 150px;
+  font-size: 13px;
+  border-radius: 10px;
+  display:none;
+}
+
+/*画面上部の情報バー*/
+.info-area {
+  width: 100%;
+  height: 60px;
+  border: 1px black solid;
+  padding:0px 5px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.info-unit{
+  display:flex;
+  align-items: center;
+}
+
+.info-unit button{
+  height: 40px;
+  width: 95px;
+  font-size: 13px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.input .next-btn{
+  background-color:rgb();
+}
+
+
+
+.info-unit .manual-link{
+  display:inline-block;
+  margin:0px 40px 0px 20px;
+}
+
+.info-unit .icon-wrap{
+  width:30px;
+  height:30px;
+  min-width:30px;
+  min-height:30px;
+}
+
+.icon-wrap img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+
+}
+ 
+.building-unit .icon-wrap{
+  width:50px;
+  height:50px;
+  min-width:50px;
+  min-height:50px;
+}
+
+.building-unit p{
+  color:white;
+}
+
+.buildInfo{
+  display:none;
+}
+
+.gamearea-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  height:400px;
+}
+
+
+.game-setting-area {
+  width: 400px;
+  border: 1px black solid;
+  padding:5px
+  
+}
+
+.product-info{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin:5px 0px;
+}
+
+.symbol{
+  align-self: center;
+}
+
+.center-box {
+  margin: 0px 10px;
+  display: flex;
+  flex-wrap:wrap;
+  width:350px;
+  height:350px;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  background-color: black;
+}
+
+.building-unit{
+  margin:5px;
+  width:80px;
+  height:80px;
+  border:1px white solid;
+  text-align: center;
+  padding:3px;
+}
+
+.unavailable{
+  opacity:0.2;
+}
+
+
+.building-unit :hover{
+  cursor: pointer;
+}
+
+.unlock-info{
+  display:none;
+  font-weight: bold;
+}
+
+.buildInfo-port{
+  display:none;
+}
+
+.buildInfo-port .icon-wrap{
+  width:50px;
+  height:50px;
+  min-width:50px;
+  min-height:50px;
+  padding:2px;
+  border:2px solid black;
+}
+
+
+.buildInfo-port .baseInfo{
+  display: inline-block;
+}
+
+.buildInfo-port .port-worker{
+  display: inline-block;
+  margin-left:10px;
+}
+
+
+.buildInfo-port .sellingArea{
+  margin:5px 0px 10px 10px;
+}
+
+.sellingwrapper input[type='number']{
+  padding:2px;
+  width:75px;
+  height:20px;
+  font-size:15px;
+}
+
+.sellingwrapper .sellRaito{
+  margin:0px 2px;
+}
+
+.sellingwrapper .buyRaito{
+  margin:0px 2px;
+}
+
+.sellingwrapper .earn-money-prod{
+  display: inline-block;
+  min-width: 60px;
+}
+
+.sellingwrapper .earn-money-food{
+  display: inline-block;
+  min-width: 60px;
+}
+
+.sellingwrapper .spend-money-prod{
+  display: inline-block;
+  min-width: 60px;
+}
+
+.sellingwrapper .spend-money-food{
+  display: inline-block;
+  min-width: 60px;
+}
+.seller{
+  margin-bottom:5px;
+}
+
+.sellitemArea{
+  display: inline-block;
+}
+
+.building-unit .icon-wrap{
+  margin:0 auto;
+}
+
+.unlock-info .icon-wrap{
+  width:50px;
+  height:50px;
+  min-width:50px;
+  min-height:50px;
+  padding:2px;
+  border:2px solid black;
+}
+
+.buildInfo .icon-wrap{
+  width:50px;
+  height:50px;
+  min-width:50px;
+  min-height:50px;
+  padding:2px;
+  border:2px solid black;
+}
+
+.info-upsize-wrap{
+  font-weight: bold;
+  margin-bottom:5px;
+}
+
+.info-upquality-wrap{
+  font-weight: bold;
+}
+
+.sellingwrapper button{
+  width:90px;
+  padding:1px;
+}
+
+.message-area {
+  width: 450px;
+  border: 1px black solid;
+  overflow: scroll;
+  padding:5px;
+}
+
+.gameOver{
+  text-align: center;
+}
+
+#unlock-btn{
+  width: 90px;
+  height: 20px;
+}
+
+.gameOver-btn{
+  height: 40px;
+  width: 140px;
+  font-size: 13px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
